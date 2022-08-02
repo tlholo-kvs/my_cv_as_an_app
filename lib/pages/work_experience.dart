@@ -20,6 +20,10 @@ class ExperiencePage extends StatelessWidget {
         ],
         backgroundColor: Colors.black,
       ),
+      body: const Center(
+        child: Text('None',
+            style: TextStyle(fontSize: 35, fontWeight: FontWeight.w500)),
+      ),
     );
   }
 }

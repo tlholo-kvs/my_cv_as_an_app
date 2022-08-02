@@ -20,6 +20,38 @@ class SkillsPage extends StatelessWidget {
         ],
         backgroundColor: Colors.black,
       ),
+      body: Center(
+        child: Column(
+          children: const [
+            SizedBox(
+              height: 40,
+            ),
+            Text(
+              'Flutter programming - Advanced beginner',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Text(
+              'Java programming - Basic understanding',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Text(
+              'C# programming -  Basic profieciency',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Text(''),
+            Text(''),
+          ],
+        ),
+      ),
     );
   }
 }
