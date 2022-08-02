@@ -18,6 +18,7 @@ class SkillsPage extends StatelessWidget {
             icon: const Icon(Icons.home),
           ),
         ],
+        backgroundColor: Colors.black,
       ),
     );
   }

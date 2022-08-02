@@ -18,28 +18,58 @@ class SummaryPage extends StatelessWidget {
             icon: const Icon(Icons.home),
           ),
         ],
+        backgroundColor: Colors.black,
       ),
-      body: Column(children: const [
-        MyCircleWidget(),
-        SizedBox(
-          height: 10,
-        ),
-        Text(
-          'Mr Tlhologelo Kgoele',
-          style: TextStyle(fontWeight: FontWeight.w500),
-        ),
-        SizedBox(
-          height: 10,
-        ),
-        Text('''I am a dedicated and inquisitive
-                Software Development major. I
-                enjoy teamwork and am resilient in
-                my approach to solve problems in
-                a methodical way, while
-                experimenting to learn more about
-                how and why the problem came up
-                as well as future mitigation tactics.'''),
-      ]),
+      body: Center(
+        child: Column(children: const [
+          SizedBox(
+            height: 20,
+          ),
+          MyCircleWidget(),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            'Mr Tlhologelo Kgoele',
+            style: TextStyle(fontWeight: FontWeight.w500, fontSize: 30),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            'I am a dedicated and inquisitive',
+            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 22),
+          ),
+          Text(
+            'Software Development major. I',
+            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 22),
+          ),
+          Text(
+            'enjoy teamwork and am resilient in',
+            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 22),
+          ),
+          Text(
+            'my approach to solve problems in',
+            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 22),
+          ),
+          Text(
+            'a methodical way, while',
+            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 22),
+          ),
+          Text(
+            'experimenting to learn more about',
+            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 22),
+          ),
+          Text(
+            'how and why the problem came up',
+            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 22),
+          ),
+          Text(
+            'as well as future mitigation tactics.',
+            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 25),
+          ),
+        ]),
+      ),
     );
   }
 }

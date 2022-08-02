@@ -9,6 +9,7 @@ class MyCircleWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CircleAvatar(
       backgroundImage: AssetImage('assets/images/selected_image.jpg'),
+      radius: 90,
     );
   }
 }

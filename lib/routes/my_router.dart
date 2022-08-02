@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_cv_as_an_app/pages/hobbies.dart';
 import 'package:my_cv_as_an_app/pages/nav_page.dart';
+import 'package:my_cv_as_an_app/pages/personal_info.dart';
 import 'package:my_cv_as_an_app/pages/profile_summary.dart';
 import 'package:my_cv_as_an_app/pages/skills.dart';
 import 'package:my_cv_as_an_app/pages/work_experience.dart';
@@ -25,7 +26,7 @@ class MyRouter {
         return MaterialPageRoute(builder: (context) => const NavigationPage());
 
       case infoPage:
-        return MaterialPageRoute(builder: (context) => const HobbiesPage());
+        return MaterialPageRoute(builder: (context) => const InfoPage());
 
       case skillsPage:
         return MaterialPageRoute(builder: (context) => const SkillsPage());
