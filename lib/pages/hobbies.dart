@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_cv_as_an_app/widgets/my_drawer.dart';
 import 'package:my_cv_as_an_app/widgets/my_photo.dart';
 
 import '../routes/my_router.dart';
@@ -21,6 +22,7 @@ class HobbiesPage extends StatelessWidget {
         ],
         backgroundColor: Colors.black,
       ),
+      drawer: const MyDrawer(),
       body: Center(
         child: Column(
           children: const [

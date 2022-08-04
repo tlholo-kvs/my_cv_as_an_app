@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_cv_as_an_app/widgets/my_photo.dart';
 import '../routes/my_router.dart';
+import '../widgets/my_drawer.dart';
 
 class InfoPage extends StatelessWidget {
   const InfoPage({Key? key}) : super(key: key);
@@ -20,6 +21,7 @@ class InfoPage extends StatelessWidget {
         ],
         backgroundColor: Colors.black,
       ),
+      drawer: const MyDrawer(),
       body: Center(
         child: Column(
           children: const [

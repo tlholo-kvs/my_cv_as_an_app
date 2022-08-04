@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:my_cv_as_an_app/routes/my_router.dart';
 import 'package:my_cv_as_an_app/widgets/my_photo.dart';
 
+import '../widgets/my_drawer.dart';
+
 class SummaryPage extends StatelessWidget {
   const SummaryPage({Key? key}) : super(key: key);
 
@@ -20,6 +22,7 @@ class SummaryPage extends StatelessWidget {
         ],
         backgroundColor: Colors.black,
       ),
+      drawer: const MyDrawer(),
       body: Center(
         child: Column(children: const [
           SizedBox(

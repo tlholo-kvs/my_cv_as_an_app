@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../routes/my_router.dart';
+import '../widgets/my_drawer.dart';
 
 class ExperiencePage extends StatelessWidget {
   const ExperiencePage({Key? key}) : super(key: key);
@@ -20,6 +21,7 @@ class ExperiencePage extends StatelessWidget {
         ],
         backgroundColor: Colors.black,
       ),
+      drawer: const MyDrawer(),
       body: const Center(
         child: Text('None',
             style: TextStyle(fontSize: 35, fontWeight: FontWeight.w500)),
