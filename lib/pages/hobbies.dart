@@ -27,19 +27,39 @@ class HobbiesPage extends StatelessWidget {
         child: Column(
           children: const [
             SizedBox(
-              height: 10,
+              height: 20,
             ),
             MyCircleWidget(),
-            Text('My hobbies include:',
-                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 30)),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              'My hobbies include:',
+              style: TextStyle(fontWeight: FontWeight.w600, fontSize: 30),
+            ),
+            SizedBox(
+              height: 10,
+            ),
             Text('• Theology',
                 style: TextStyle(fontWeight: FontWeight.w300, fontSize: 30)),
+            SizedBox(
+              height: 10,
+            ),
             Text('• Reading',
                 style: TextStyle(fontWeight: FontWeight.w300, fontSize: 30)),
+            SizedBox(
+              height: 10,
+            ),
             Text('• Making music',
                 style: TextStyle(fontWeight: FontWeight.w300, fontSize: 30)),
+            SizedBox(
+              height: 10,
+            ),
             Text('• Writing music',
                 style: TextStyle(fontWeight: FontWeight.w300, fontSize: 30)),
+            SizedBox(
+              height: 10,
+            ),
             Text('• YouTube',
                 style: TextStyle(fontWeight: FontWeight.w300, fontSize: 30)),
           ],

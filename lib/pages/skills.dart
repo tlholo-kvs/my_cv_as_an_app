@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../routes/my_router.dart';
 import '../widgets/my_drawer.dart';
+import '../widgets/skills_text_card.dart';
 
 class SkillsPage extends StatelessWidget {
   const SkillsPage({Key? key}) : super(key: key);
@@ -28,29 +29,39 @@ class SkillsPage extends StatelessWidget {
             SizedBox(
               height: 40,
             ),
-            Text(
-              'Flutter programming - Advanced beginner',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
+            Padding(
+              padding: EdgeInsets.only(left: 12.0, right: 12.0),
+              child: SkillsTextCard(
+                cardText: 'Flutter',
+                skillDesc:
+                    'Android application development with Dart programming language using the Flutter framework',
+              ),
             ),
             SizedBox(
               height: 5,
             ),
-            Text(
-              'Java programming - Basic understanding',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
+            SkillsTextCard(
+              cardText: 'Java',
+              skillDesc:
+                  'Android application develpment with the Java programming language',
             ),
             SizedBox(
               height: 5,
             ),
-            Text(
-              'C# programming -  Basic profieciency',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
+            SkillsTextCard(
+              cardText: 'C#',
+              skillDesc: 'Console application with the C# programming language',
             ),
             SizedBox(
               height: 5,
             ),
-            Text(''),
-            Text(''),
+            SkillsTextCard(
+              cardText: 'Microsoft Office',
+              skillDesc: 'Proficiently skilled with the Microsoft suite',
+            ),
+            SizedBox(
+              height: 5,
+            ),
           ],
         ),
       ),
